@@ -63,11 +63,11 @@ evaluate/evaluate.py
 
 任务一（罪名预测）、任务二（法条推荐）两项任务将采用分类任务中的微平均F1值（Micro-F1-measure）和宏平均F1值（Macro-F1-measure）作为评价指标，其计算方式为：
 
-![f1](f1.png)
+![f1](f1.png){:height="50%" width="50%"}
 
 则任务的最终分数为：
 
-![score1](score_1.png)
+![score1](score_1.png){:height="50%" width="50%"}
 
 #### 2.3.2 任务三
 
@@ -93,13 +93,13 @@ evaluate/evaluate.py
 
 最后，将任务三所有测试点的分数相加并除以测试点总数乘以100作为任务三的评价得分：
 
-![score3](score_3.png)
+![score3](score_3.png){:height="50%" width="50%"}
 
 #### 2.3.3 三项任务总分的计算方式
 
 每个任务的满分均为100，则总分为：
 
-![score_all](score_all.png)
+![score_all](score_all.png){:height="50%" width="50%"}
 
 
 ### 2.4 基线系统
